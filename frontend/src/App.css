@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* CUADRO ROJO MÁS PEQUEÑO */
+.info-box{
+    width: 420px;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+/* OCULTAR TEXTO ARRIBA DEL CUADRO */
+.info-box h1,
+.info-box h2,
+.info-box p{
+    display: none;
+}
